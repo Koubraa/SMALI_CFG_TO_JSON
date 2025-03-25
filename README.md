@@ -29,11 +29,12 @@ cd mango
   
   Ensure Java SE 8 or higher is configured (Project properties → Java Build Path → Libraries → JRE System Library [JavaSE-1.8+])
   
-  Include the H2 database library (version 2.1.214) as shown:
+  Include the H2 database library (version 2.1.214) junit-jupiter-api-5.9.2.jar and junit-jupiter-engine-5.9.2.jar:
   
   Click File → Import → Maven → Existing Maven Projects
   
   Select the cloned mango folder and click Finish
+  
 
 ###  Step 3 – Add the Vulnerable Demo (`LoginApp`)
 - In Eclipse project tree, open `mango/src/test/java/org/jfaster/mango/util`
