@@ -25,9 +25,15 @@ cd mango
 
 ###  Step 2 – Install and Setup Eclipse
 - Download [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/)
-- Install Eclipse and open it.
-- Click `File → Import → Maven → Existing Maven Projects`
-- Select the cloned `mango` folder and click `Finish`
+  Install Eclipse and open it.
+  
+  Ensure Java SE 8 or higher is configured (Project properties → Java Build Path → Libraries → JRE System Library [JavaSE-1.8+])
+  
+  Include the H2 database library (version 2.1.214) as shown:
+  
+  Click File → Import → Maven → Existing Maven Projects
+  
+  Select the cloned mango folder and click Finish
 
 ###  Step 3 – Add the Vulnerable Demo (`LoginApp`)
 - In Eclipse project tree, open `mango/src/test/java/org/jfaster/mango/util`
